@@ -155,10 +155,51 @@ function App() {
             </Typography>
           </div>
         </Paper>
+        <Paper className="text-panel">
+          <div className="content-margin">
+            <Typography variant="h5" gutterBottom>
+              Works Cited
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              <div className="citation">
+                &nbsp;
+                <p>
+                  Bier, David. &ldquo;H-2B Visas: The Complex Process for
+                  Nonagricultural Employers to Hire Guest Workers.&rdquo;{" "}
+                  <em>Cato Institute</em>, 16 Feb. 2021,
+                  www.cato.org/publications/policy-analysis/h-2b-visas-complex-process-nonagricultural-employers-hire-guest-workers#introduction.
+                  Accessed 24 Mar. 2021.
+                </p>
+                <p>
+                  Griffith, Bryan. &ldquo;Maps: Impact of H-2B Guest Workers in
+                  2017.&rdquo; <em>CIS.org</em>, 2 Apr. 2018,
+                  cis.org/Report/Maps-Impact-H2B-Guest-Workers-2017. Accessed 24
+                  Mar. 2021.
+                </p>
+                <p>
+                  &ldquo;H-2B Program | U.S. Department of Labor.&rdquo;{" "}
+                  <em>Www.dol.gov</em>,
+                  www.dol.gov/agencies/whd/immigration/h2b.
+                </p>
+                <p>
+                  &ldquo;Immigration Data &amp; Statistics.&rdquo;{" "}
+                  <em>Department of Homeland Security</em>, 26 Feb. 2019,
+                  www.dhs.gov/immigration-statistics.
+                </p>
+                <p>
+                  McHugh, Patrick. &ldquo;Impact of H-2B Guestworkers in
+                  2018.&rdquo; <em>CIS.org</em>, 31 Dec. 2018,
+                  cis.org/Report/Impact-H2B-Guestworkers-2018. Accessed 24 Mar.
+                  2021.
+                </p>
+              </div>
+            </Typography>
+          </div>
+        </Paper>
       </Container>
       <footer>
-        Copyright &copy; Nathan Laha, Solomon Sprenke, William Sperry -{" "}
-        {new Date().getFullYear()}
+        Copyright &copy; {new Date().getFullYear()} Nathan Laha, Solomon
+        Sprenke, William Sperry - All Rights Reserved
       </footer>
     </div>
   );
