@@ -9,12 +9,97 @@ function App() {
       <Container maxWidth="lg">
         <div className="site-title-container">
           <h1 className="site-title">US Immigration</h1>
-          <h2 className="site-subtitle">The H-2B Visa Problem</h2>
+          <h2 className="site-subtitle">Policymaking Advocacy</h2>
         </div>
         <Paper className="text-panel">
           <div className="content-margin">
             <Typography variant="h5" gutterBottom>
-              Intro
+              Introduction
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              Immigration is an issue that has taken center stage in the United
+              States over the past decade. It draws a passionate argument from
+              both sides of the debate due to its significance to so many people
+              with around 14% of the U.S being foreign-born and another 12%
+              second generation. Many fear that immigration erodes our welfare
+              state and steals American jobs. While others seek the talent the
+              rest of the world has to offer. It is our position that
+              immigration would be a great benefit to all, lifting the global
+              poor from their poverty, and Americans along with them.
+            </Typography>
+          </div>
+        </Paper>
+        <Paper className="text-panel">
+          <div className="content-margin">
+            <Typography variant="h5" gutterBottom>
+              Positive Argument
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              Most experts agree that it would be beneficial to the average
+              American if many low-skill workers were allowed to enter the US
+              each year, almost all experts agree that the average citizen would
+              be better off if many high-skill workers were allowed to enter the
+              US each year. Immigrants have a large positive effect on the
+              communities they live in. Immigrants act as consumers, creating
+              more demand for small businesses, and as job creators, creating
+              more businesses in the communities they live in. Most immigrants
+              are let in through visa programs letting them work in specific job
+              areas of the US. An example of this is the H-2B program which,
+              with its mere 66,000 worker cap, fails to provide enough workers
+              to the industries that it targets.
+            </Typography>
+          </div>
+        </Paper>
+        <Paper className="text-panel">
+          <div className="content-margin">
+            <Typography variant="h5" gutterBottom>
+              Negative Argument
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              Despite immigration being one of the most contentious issues in
+              the United States, the arguments against it are some of the least
+              substantiated out there.
+              <br></br>
+              <br></br>
+              The two most common fears of immigration are that it will either
+              lower American wages or steal American jobs. The claim of
+              unemployment has never been substantiated in the research. The
+              reasons for this have already been covered.
+              <br></br>
+              <br></br>
+              The most popular piece of research supporting the idea that
+              immigrants reduce American wages is a{" "}
+              <a href="https://www.nber.org/papers/w21588l">study</a> by George
+              Borjas from 2015 that claimed that if you changed the methodology
+              from the famous{" "}
+              <a href="https://www.nber.org/papers/w21588l">card study</a> you
+              could find a significant wage drop among high school dropouts(only
+              high school dropouts). Borjas’s methods have been intensely
+              critiqued seeing as his sample which he cut out of a large sample
+              of low-income workers consisted of only 17 people. Economist
+              Michael Clemens states that "if we’re willing to take low-skill
+              workers in Miami and hand-pick small subsets of them, we can
+              always find small groups of workers whose wages rose during a
+              particular period and other groups whose wages fell. But at some
+              point, we're learning more about statistical artifacts than about
+              real-world events." meaning a sample size so small could lead one
+              to any conclusion. The predominant view of economists is that of
+              the original card study from 1990 that concluded that immigration
+              either did not affect or dramatically increased wages of native
+              workers. One should also note that Borjas’s{" "}
+              <a href="https://www.miamiherald.com/news/local/community/miami-dade/article162682623.html">
+                {" "}
+                main personal conclusion
+              </a>{" "}
+              from his own research is not that we should reduce immigration but
+              that we should attempt to remedy its side effects with tax policy.
+            </Typography>
+          </div>
+        </Paper>
+        <Paper className="text-panel">
+          <div className="content-margin">
+            <Typography variant="h5" gutterBottom>
+              H-2B Visas
             </Typography>
             <Typography variant="body1" gutterBottom>
               The H-2B visa is a program made for companies who cannot fill
@@ -39,13 +124,6 @@ function App() {
               While the number of positions have been increasing, the cap of
               66,000 H-2B visas has remained the same (with some minor
               exceptions, see "Yearly H-2B Certified Positions").
-            </Typography>
-          </div>
-        </Paper>
-        <Paper className="text-panel">
-          <div className="content-margin">
-            <Typography variant="h5" gutterBottom>
-              Positive Argument
             </Typography>
             <Typography variant="body1" gutterBottom>
               Many US Businesses are suffering from worker shortages due to the
@@ -112,46 +190,26 @@ function App() {
         <Paper className="text-panel">
           <div className="content-margin">
             <Typography variant="h5" gutterBottom>
-              Negative Argument
+              Racial Equity Impact
             </Typography>
             <Typography variant="body1" gutterBottom>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              maximus mollis sem. Sed eu risus neque. Fusce in nunc vestibulum,
-              vehicula lectus quis, condimentum velit. Donec eleifend id augue
-              porta suscipit. Aenean a eros magna. Ut quis erat id ipsum
-              volutpat sagittis et id lorem. Nam pharetra, felis tincidunt
-              euismod dignissim, erat elit facilisis erat, a blandit sapien
-              massa vel dui. Nullam posuere tincidunt velit, eu elementum quam
-              tincidunt at. Proin dapibus vulputate ligula vitae ornare. Proin
-              sit amet felis et purus efficitur lacinia. In diam dolor, mollis
-              eu nunc in, efficitur ultrices tellus. Aenean sagittis ultrices
-              tincidunt. Class aptent taciti sociosqu ad litora torquent per
-              conubia nostra, per inceptos himenaeos. Phasellus et velit quis
-              turpis vulputate bibendum. Donec consectetur congue dui, eget
-              lacinia turpis aliquet nec.
-            </Typography>
-          </div>
-        </Paper>
-        <Paper className="text-panel">
-          <div className="content-margin">
-            <Typography variant="h5" gutterBottom>
-              Real World Solution
-            </Typography>
-            <Typography variant="body1" gutterBottom>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              maximus mollis sem. Sed eu risus neque. Fusce in nunc vestibulum,
-              vehicula lectus quis, condimentum velit. Donec eleifend id augue
-              porta suscipit. Aenean a eros magna. Ut quis erat id ipsum
-              volutpat sagittis et id lorem. Nam pharetra, felis tincidunt
-              euismod dignissim, erat elit facilisis erat, a blandit sapien
-              massa vel dui. Nullam posuere tincidunt velit, eu elementum quam
-              tincidunt at. Proin dapibus vulputate ligula vitae ornare. Proin
-              sit amet felis et purus efficitur lacinia. In diam dolor, mollis
-              eu nunc in, efficitur ultrices tellus. Aenean sagittis ultrices
-              tincidunt. Class aptent taciti sociosqu ad litora torquent per
-              conubia nostra, per inceptos himenaeos. Phasellus et velit quis
-              turpis vulputate bibendum. Donec consectetur congue dui, eget
-              lacinia turpis aliquet nec.
+              As more people immigrate to America, there will be several equity
+              impacts to consider. Immigrants in the workforce will help to
+              bring diversity, and the strict regulations companies must follow
+              when hiring migrant workers will ensure equal treatment (or reduce
+              the likelihood of unequal treatment). A racially equitable
+              immigration system would provide many different options for entry
+              into the US, while still regulating company job listings. The
+              racial tensions that already exist can be lessened by diversifying
+              the workforce.
+              <br></br>
+              <br></br>
+              There are some potential issues with allowing more immigrants into
+              the country, one of which is pushing already underrepresented
+              people out of the workforce. However, while this may seem like a
+              significant issue, as long as the department of labor keeps it’s
+              strict regulations on migrant work visas, simply allowing more
+              work opportunities per-year will not cause equity problems.
             </Typography>
           </div>
         </Paper>
@@ -162,7 +220,6 @@ function App() {
             </Typography>
             <Typography variant="body1" gutterBottom>
               <div className="citation">
-                &nbsp;
                 <p>
                   Bier, David. &ldquo;H-2B Visas: The Complex Process for
                   Nonagricultural Employers to Hire Guest Workers.&rdquo;{" "}
@@ -191,6 +248,21 @@ function App() {
                   2018.&rdquo; <em>CIS.org</em>, 31 Dec. 2018,
                   cis.org/Report/Impact-H2B-Guestworkers-2018. Accessed 24 Mar.
                   2021.
+                </p>
+                <p>
+                  Lewis, Ethan. &ldquo;How Immigration Affects Workers: Two
+                  Wrong Models and a Right One.&rdquo; <em>Cato Institute</em>,
+                  13 Sept. 2017,
+                  www.cato.org/cato-journal/fall-2017/how-immigration-affects-workers-two-wrong-models-right-one?queryID=c5215490ff92d062a7b85d278315abec#wrong-model-1-fixed-number-of-jobs.
+                  Accessed 25 Mar. 2021.
+                </p>
+                <p>
+                  <em>Igmchicago.org</em>, 2021,
+                  www.igmchicago.org/surveys/low-skilled-immigrants/.
+                </p>
+                <p>
+                  <em>Igmchicago.org</em>, 2021,
+                  www.igmchicago.org/surveys/high-skilled-immigrants/.
                 </p>
               </div>
             </Typography>
